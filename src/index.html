@@ -8,16 +8,28 @@
 </head>
 <body>
 <header class="">
-    <div class="container"><h1 class="header__brand">Claymore</h1>
-        <nav id="header__nav" class="navbar">
-            <ul class="nav nav-pills">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Price</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <h1 class="header__brand navbar brend">Claymore</h1>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header__nav"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="header__nav" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="header-content">
             <img src="img/header__mock.png" alt="">
@@ -70,83 +82,108 @@
         <div class="container">
             <h2>Lorem ipsum dolor sit amet</h2>
             <p>consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.</p>
-            <button><i class="fa fa-angle-left"></i></button>
-            <button><i class="fa fa-angle-right"></i></button>
+            <button class="features__controls features__controls-left"><i class="fa fa-angle-left"></i></button>
+            <button class="features__controls features__controls-right"><i class="fa fa-angle-right"></i></button>
             <div class="features-slider">
-                <div class="features__item"><img src="" alt=""></div>
+                <div class="features__item container"><img src="img/features__MacBook.png" alt=""></div>
             </div>
         </div>
     </div>
     <div class="testimonials container">
-        <h2>What People Say</h2>
+        <h2 class="text-center">What People Say</h2>
         <div class="row">
             <div class="col-md-6 testimonials__item">
-                <div class="hex-image"></div>
+                <div class="hex-image"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_1"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_2"><img src="img/testimonials__portrait.jpg" alt=""></div>
                 <h3>Excepteur sint occaecat </h3>
                 <p>Sed non massa quis nisl tincidunt posuere sit
                     amet vitae sem. Praesent sed convallis quam.</p>
             </div>
             <div class="col-md-6 testimonials__item">
-                <div class="hex-image"></div>
+                <div class="hex-image"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_1"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_2"><img src="img/testimonials__portrait.jpg" alt=""></div>
                 <h3>Excepteur sint occaecat</h3>
                 <p>Sed non massa quis nisl tincidunt posuere sit
                     amet vitae sem. Praesent sed convallis quam.</p>
             </div>
             <div class="col-md-6 testimonials__item">
-                <div class="hex-image"></div>
+                <div class="hex-image"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_1"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_2"><img src="img/testimonials__portrait.jpg" alt=""></div>
                 <h3>Excepteur sint occaecat </h3>
                 <p>Sed non massa quis nisl tincidunt posuere sit
                     amet vitae sem. Praesent sed convallis quam.</p>
             </div>
             <div class="col-md-6 testimonials__item">
-                <div class="hex-image"></div>
+                <div class="hex-image"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_1"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_2"><img src="img/testimonials__portrait.jpg" alt=""></div>
                 <h3>Excepteur sint occaecat</h3>
                 <p>Sed non massa quis nisl tincidunt posuere sit
                     amet vitae sem. Praesent sed convallis quam.</p>
             </div>
             <div class="col-md-6 testimonials__item">
-                <div class="hex-image"></div>
+                <div class="hex-image"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_1"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_2"><img src="img/testimonials__portrait.jpg" alt=""></div>
                 <h3>Excepteur sint occaecat </h3>
                 <p>Sed non massa quis nisl tincidunt posuere sit
                     amet vitae sem. Praesent sed convallis quam.</p>
             </div>
             <div class="col-md-6 testimonials__item">
-                <div class="hex-image"></div>
+                <div class="hex-image"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_1"><img src="img/testimonials__portrait.jpg" alt=""></div>
+                <div class="hex-image hex-image_2"><img src="img/testimonials__portrait.jpg" alt=""></div>
                 <h3>Excepteur sint occaecat </h3>
                 <p>Sed non massa quis nisl tincidunt posuere sit
                     amet vitae sem. Praesent sed convallis quam.</p>
             </div>
         </div>
     </div>
-    <div class="contact container-fluid">
+    <div class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="contact-content col-md-6">
                     <h2>Curabitur ornare neque</h2>
                     <p>id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla
                         fermentum nibh eu velit molestie ultricies. Curabitur non gravida urna,
                         at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue
                         lorem pharetra tortor, non tincidunt urna diam in libero. Nam et neque
                         ut nisi consectetur tempor. Maecenas gravida est eu nisi dignissim
-                        gravida. Proin mollis sodales ullamcorper.</p>
-                    <p class="contact__address"><i class="fa fa"></i>venenatis neque sit amet ante aliquam sollicitudin
+                        gravida. Proin mollis sodales ullamcorper.</p><br>
+                    <p class="contact__address"><i class="fa fa-map-marker"></i> venenatis neque sit amet ante aliquam
+                        sollicitudin
                     </p>
-                    <p class="contact__phone"><i class="fa fa"></i>+7(962)901-42-96, +7(925)188-7111</p>
-                    <p class="contact_-emil"><i class="fa fa"></i>o_gredi@mail.ru</p>
+                    <p class="contact__phone"><i class="fa fa-phone"></i> +7(962)901-42-96, +7(925)188-7111</p>
+                    <p class="contact__emil"><i class="fa fa-envelope"></i><a href="mailto:o_gredi@mail.ru">
+                        o_gredi@mail.ru</a></p>
                 </div>
-                <form action="#" class="col-md-6">
-                    <label for=""><input type="text"></label>
-                    <label for=""><input type="text"></label>
-                    <label for=""><select name="" id="subject"></select></label>
-                    <label for=""><textarea name="" id="" cols="30" rows="10"></textarea></label>
-                    <button>Reset</button>
-                    <button>Submit</button>
+                <form id="contact-feedback" action="#" class="col-md-6">
+                    <label for=""><input class="feedback__name" name="feedback__name" type="text"
+                                         placeholder="your name"></label>
+                    <label for=""><input class="feedback__email" name="feedback__email" type="text"
+                                         placeholder="your email"></label><br>
+                    <label for=""><select class="feedback__subject" name="feedback__subject" id="subject">
+                        <option value="subject1">subject1</option>
+                        <option value="subject2">subject2</option>
+                        <option value="subject3">subject3</option>
+                        <option value="subject4">subject4</option>
+                        <option value="subject5">subject5</option>
+                    </select></label><br>
+                    <label for=""><textarea class="feedback__message" name="feedback__message" id="" cols="30" rows="10"
+                                            placeholder="your message"></textarea></label><br>
+                    <button class="feedback__button feedback__submit">Submit</button>
+                    <button class="feedback__button feedback__reset" type="reset">Reset</button>
                 </form>
             </div>
         </div>
     </div>
 </main>
-<footer class="container-fluid text-center">Copyright 2013-2014 @andreyyan, All right reserved.</footer>
+<footer class="text-center">
+    <div class="footer container">Copyright 2013-2014 @andreyyan, All right reserved.</div>
+</footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
